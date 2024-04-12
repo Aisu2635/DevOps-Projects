@@ -20,8 +20,8 @@ jobs:
         with:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          application_name: XCR-store
-          environment_name: XCR-store-env
+          application_name: React
+          environment_name: react-env
           version_label: ${{ github.sha }}
           existing_bucket_name: elasticbeanstalk-ap-south-1-211125526413
           region: ap-south-1
